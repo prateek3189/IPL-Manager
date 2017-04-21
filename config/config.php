@@ -20,7 +20,7 @@
 	define('HTTP_HOST', $_SERVER['HTTP_HOST']);
 	define('DOCUMENT_ROOT', $_SERVER['DOCUMENT_ROOT']);
 
-  $req_uri	=	"/IPL/";
+  $req_uri	=	"/IPL-Manager/";
 
   //Title
 	define("TITLE",'IPL - 2017');
