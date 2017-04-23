@@ -8,10 +8,12 @@
 *{
   box-sizing:border-box;
 }
-a{
+
+a {
     text-decoration:none;
-    color:@blue1;
-  }
+    color:@white;
+}
+
 body{
   padding:0;
   margin:0;
@@ -160,36 +162,39 @@ ul.navbar{
 /*Footer*/
 footer
 {
-  border-top:1px solid @blue1;
-  background:@white;
+  border-top:1px solid @white;
   padding:5px 0;
   text-align:center;
-  color:@blue1;
   position:fixed;
   bottom:0;
   width:100%;
 }
 
 // Home
-.my-vote {
-    h1 {
-        text-align: center;
-    }
+h1 {
+    text-align: center;
+}
 
+.todays-match {
     table {
         border: 1px solid @white;
         width: 500px;
         margin: 0 auto;
         margin-top: 20px;
+        width: 900px;
 
         th, td {
             padding: 0;
             margin: 0;
             border-bottom: 1px solid @white;
+            padding: 10px;
         }
     }
 }
 
+.my-vote {
+    margin-top: 20px;
+}
 /*Login Box*/
 .login_box{
   border: 1px solid @gray9;
